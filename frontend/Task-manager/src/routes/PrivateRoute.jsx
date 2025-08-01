@@ -1,8 +1,9 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-function PrivateRoute({allowedRoles}) {
-  return <Outlet/>
+function PrivateRoute({ allowedRoles }) {
+  // Authorized
+  return <Outlet />;
 }
 
-export default PrivateRoute
+export default PrivateRoute;
