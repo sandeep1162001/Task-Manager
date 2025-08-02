@@ -11,8 +11,8 @@ import { IoMdCard } from "react-icons/io";
 import { LuArrowRight } from "react-icons/lu";
 
 import TaskListTable from "../../components/TaskListTable";
-import CustomPieChart from "../../components/charts/CustomPieChart";
-import CustomBarChart from "../../components/charts/CustomBarChart";
+import CustomPieChart from "../../components/Charts/CustomPieChart";
+import CustomBarChart from "../../components/Charts/CustomBarChart";
 
 import { addThousandsSeparator } from "../../utils/helper";
 import { UserContext } from "../../context/userContext";
