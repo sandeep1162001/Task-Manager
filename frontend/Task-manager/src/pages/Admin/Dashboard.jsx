@@ -6,7 +6,7 @@ import { API_PATHS } from "../../utils/apiPath";
 import axiosInstance from "../../utils/axiosInstance";
 import moment from "moment";
 
-import InfoCard from "../../components/cards/InfoCard";
+import InfoCard from "../../components/Cards/InfoCard";
 import { IoMdCard } from "react-icons/io";
 import { LuArrowRight } from "react-icons/lu";
 
